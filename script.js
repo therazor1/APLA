@@ -11,7 +11,7 @@ function eventos(){
     document.addEventListener('DOMContentLoaded', inicioDom)
     hamburguesa.addEventListener('click', mostrarNav)
     close.addEventListener('click', desaparecerNav)
-    window.addEventListener('scroll', mostrarCelular)
+    // window.addEventListener('scroll', mostrarCelular)
 }
 
 function inicioDom(){
@@ -107,21 +107,21 @@ window.onscroll = function(){
 }
 
 
-function mostrarCelular(){
-    let valor = window.pageYOffset
-    let textoH2 = document.querySelector('#texto h2')
-    let textoP = document.querySelector('#texto p')
-    let textoA = document.querySelector('#texto a')
-    let celular = document.querySelector('#celular')
-    if(valor >= 25){
-        celular.style.bottom = '-75' +'%'
-        celular.style.opacity = '1'
-        textoH2.style.left = '0'
-        textoH2.style.opacity = '1'
-        textoP.style.left = '0'
-        textoP.style.opacity = '1'
-        textoA.style.left = '0'
-        textoA.style.opacity = '1'
+// function mostrarCelular(){
+//     let valor = window.pageYOffset
+//     let textoH2 = document.querySelector('#texto h2')
+//     let textoP = document.querySelector('#texto p')
+//     let textoA = document.querySelector('#texto a')
+//     let celular = document.querySelector('#celular')
+//     if(valor >= 25){
+//         celular.style.bottom = '-75' +'%'
+//         celular.style.opacity = '1'
+//         textoH2.style.left = '0'
+//         textoH2.style.opacity = '1'
+//         textoP.style.left = '0'
+//         textoP.style.opacity = '1'
+//         textoA.style.left = '0'
+//         textoA.style.opacity = '1'
 
-    }
-}
+//     }
+// }
