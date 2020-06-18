@@ -309,7 +309,21 @@ body{
                 0 0 40px -1px var(--color2),
                 0 0 60px -1px var(--color2);
 }
+.imagenes .imagen:nth-child(2) .boton-ver{
+    left: 25%;
+    background-color: var(--color1);
+}
+.imagenes .imagen:nth-child(2) .boton-ver:hover{
+    box-shadow: 0 0 20px -1px var(--color1),
+                0 0 40px -1px var(--color1),
+                0 0 60px -1px var(--color1);
+}
 
+
+.imagenes .imagen:nth-child(3) .boton-ver{
+    top: 62%;
+    left: 15%;
+}
 
 
 /*Fin Servicios*/
