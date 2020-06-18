@@ -129,7 +129,7 @@ body{
         height: auto;
     }
 }
-.logo{
+/* .logo{
     width: 220px;
     background-color: black;
     height: 80px;
@@ -137,10 +137,16 @@ body{
     position: absolute;
     margin-left: 1rem;
     z-index: 1000;
+} */
+.logo{
+    color: red;
+    width: 20%;
+    position: relative;
+    left: 50px;
 }
 .logo img{
+    width: 80%;
     position: absolute;
-    top: -70px;
 }
 .hamburguesa{
     width: 50px;
@@ -278,9 +284,33 @@ body{
     width: 100%;
     background-color: red;
 }
+.imagen{
+    position: relative;
+}
 .imagenes img{
     width: 100%;
 }
+.boton-ver{
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    padding: 1rem 3rem;
+    background-color: var(--color2);
+    font-weight: 700;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.boton-ver:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px -1px var(--color2),
+                0 0 40px -1px var(--color2),
+                0 0 60px -1px var(--color2);
+}
+
+
 
 /*Fin Servicios*/
 

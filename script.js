@@ -1,4 +1,4 @@
-'use strict'
+
 let inicio = document.querySelector('#inicio ')
 let hamburguesa = document.querySelector('#hamburguesa')
 let close = document.querySelector('#close')
