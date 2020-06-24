@@ -22,7 +22,7 @@ function inicioDom(){
         inicio.style.display = 'none'
         inicio.style.transition = 'all .3s ease-in-out'
         document.body.style.overflow = 'visible';
-    },4000)
+    },7000)
     let posicion = window.pageYOffset
     if(window.location.reload){
         inicio.style.top = posicion +"px";
