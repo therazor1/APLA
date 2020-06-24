@@ -19,6 +19,7 @@ function inicioDom(){
     setTimeout(()=>{
         inicio.style.opacity = '0'
         inicio.style.zIndex= '0'
+        inicio.style.display = 'none'
         inicio.style.transition = 'all .3s ease-in-out'
         document.body.style.overflow = 'visible';
     },4000)

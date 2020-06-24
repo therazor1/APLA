@@ -29,8 +29,9 @@ body{
     align-items: center;
 
 }
-.caja-inicio video{
+.caja-inicio img{
     width: 95%;
+    height: 100vh;
 }
 /* .caja-inicio video{
     
