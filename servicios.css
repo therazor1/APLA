@@ -2,3 +2,64 @@
 .trazo{
     height: 100vh;
 }
+.texto-servicios{
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+.redes{
+    top: 30%;
+    right: 15%;
+    width: 500px;
+}
+.redes p, .web p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    text-shadow:  1px 1px white,
+                    0 0 1em white,
+                    1px 1px white, 
+                    0 0 1em white,
+                    1px 1px white, 
+                    0 0 1em white;
+    transition: all .3s ease-in-out;
+}
+.redes:hover p , .web:hover p{
+    font-size: 1.5rem;
+    cursor: none;
+}
+
+.creacion{
+    top: 30%;
+    left: 15%;
+    width: 500px;
+}
+.creacion p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgba(90, 90, 90, .9);
+    text-shadow:  1px 1px #ef6343,
+                    0 0 1em #ef6343;
+    transition: all .3s ease-in-out;
+}
+.creacion:hover p{
+    font-size: 1.5rem;
+    cursor: none;
+}
+.web{
+    left: 9%;
+    width: 500px;
+    top: 80%;
+}
+.web p{
+    font-size: 1.3rem;
+}
+.web:hover p{
+    font-size: 1.3rem;
+}
