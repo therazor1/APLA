@@ -292,9 +292,10 @@ h4::after{
 }
 .boton-ver{
     position: absolute;
+    text-align: center;
     left: 65%;
     top: 70%;
-    padding: 1rem 3rem;
+    padding: .8rem 1rem;
     background-color: var(--color2);
     font-weight: 700;
     border-radius: 15px;
@@ -302,6 +303,12 @@ h4::after{
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
+@media(min-width:768px){
+    .boton-ver{
+        padding: 1rem 3rem;
+    }
+}
+
 .boton-ver:hover{
     text-decoration: none;
     color: white;
@@ -320,11 +327,11 @@ h4::after{
                 0 0 60px -1px var(--color1);
 }
 
-
 .imagenes .imagen:nth-child(3) .boton-ver{
     top: 62%;
     left: 15%;
 }
+
 .espacio{
     display: flex;
     height: 7.8rem;
